@@ -17,5 +17,4 @@ kubectl apply -f https://raw.githubusercontent.com/kubernetes-sigs/aws-load-bala
 ```
 
 
-
-![Screenshot 2023-08-03 at 7 57 15 PM](https://github.com/iam-veeramalla/aws-devops-zero-to-hero/assets/43399466/93b06a9f-67f9-404f-b0ad-18e3095b7353)
+![Screenshot 2024-03-20 at 3 24 56 PM](https://github.com/Kiran7321/ApplicationDeploymentUsingIngressAndEKS/assets/89258260/1af9d5a9-6bd2-434a-a655-54c757d109be)

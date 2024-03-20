@@ -1,6 +1,16 @@
 # AWS EKS 
 
+
 ## Introduction
+
+This project demonstrates the creation of a real-time 2048 game application deployment on AWS, employing a multi-step process to ensure seamless accessibility and scalability. Initially, utilizing Elastic Kubernetes Service, I orchestrated the creation of Pods, which encapsulate the application's containers, ensuring efficient resource allocation and management. These Pods were then connected through Services, enabling internal communication and facilitating access to the application within the Kubernetes cluster.
+
+To extend access beyond the EKS cluster and expose the application to the outside world, I employed an Ingress Controller, specifically the ALB Ingress Controller in the AWS environment. Through the Ingress Controller, I defined routing rules and configured an Application Load Balancer (ALB), a vital component in directing external traffic to the appropriate Pods and Services within the cluster. Leveraging AWS CLI, I seamlessly integrated the Ingress Controller with the AWS infrastructure, ensuring robust connectivity and optimal performance of the game application for external users.
+
+## Accessing the Game After Deployment
+
+![Screenshot 2024-03-20 at 3 24 56 PM](https://github.com/Kiran7321/ApplicationDeploymentUsingIngressAndEKS/assets/89258260/b2a187e8-c39e-4f17-91c8-6fd4830bc13c)
+
 
 ## Table of Contents:
 
